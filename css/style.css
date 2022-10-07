@@ -5,6 +5,7 @@
   --red-transparent: rgba(135,8,42,0.7);
   --gray-text: rgb(157, 156, 156);
   --dark-shadow: #000;
+  --dark-text-color:#444;
 }
 
 *{
@@ -28,7 +29,7 @@ body{
   font-size: 4rem;
   text-align: center;
   letter-spacing: 1.7rem;
-  color:#444;
+  color: var(--dark-text-color);
   margin:2rem 0;
   padding: 6rem 0 3rem;
 
