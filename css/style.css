@@ -4,6 +4,7 @@
   --red:rgb(135,8,42);
   --red-transparent: rgba(135,8,42,0.7);
   --gray-text: rgb(157, 156, 156);
+  --dark-shadow: #000;
 }
 
 *{
@@ -66,7 +67,7 @@ body{
 }
 
 .header nav ul li a:hover{
-  color:#000;
+  color: var(--red);
   text-decoration: none;
 }
 
